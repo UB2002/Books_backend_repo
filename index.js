@@ -6,7 +6,7 @@ const Bookroutes = require('./Routes/BookRoutes')
 const connect = require('./config/connect');
 
 
-app.get('/Books', (req, res) => {
+app.get('/', (req, res) => {
   res.send("hello world");
 });
 
